@@ -410,4 +410,7 @@ form textarea{
 		transition: 0.2s ease;
 		text-align: center;
 	}
+	.navbar.active{
+		top:100%;
+	}
 }
