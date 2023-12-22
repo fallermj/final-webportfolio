@@ -371,7 +371,7 @@ form textarea{
 	color: #22cf91;
 }
 /*Make it responsive*/
-@media (max-wdith: 991px) {
+@media (max-width: 991px) {
 	header{
 		padding: 18px 4%;
 	}
@@ -379,13 +379,13 @@ form textarea{
 		padding: 50px 4%;
 	}
 }
-@media (max-wdith: 768px) {
+@media (max-width: 768px) {
 	:root{
 		--big-font: 2.4rem;
 		--medium-font: 1.2rem;
 	}
 }
-@media (max-wdith: 768px) {
+@media (max-width: 768px) {
 	:root{
 		--big-font: 2.4rem;
 		--medium-font: 1.2rem;
