@@ -418,4 +418,60 @@ form textarea{
 		display: block;
 		background: var(--bg-color);
 	}
+}#darkmode{
+		position: absolute;
+		top: 1.4rem;
+		right: 2rem;	
+	}
+	.home {
+		grid-template-columns: 0.5fr 3fr;
+	}
+	.about-img{
+		order: initial;
+	}	
+	.about-text{
+		grid-column: 1/3;
+		padding-left: 1.4rem;
+	}
+
+	.about-container{
+		display: flex;
+		justify-content: center;
+	}
+
+	.contact-form form{
+		width: 300px;
+	}
+
+	.contact-button{
+		margin-left: 25%;
+	}
+}
+
+@media (max-width:340px){
+	:root{
+		--big-font: 1.7rem;
+		--medium-font: 1.1rem;
+	}
+
+	.about-text span{
+		font-size: 1rem;
+	}
+	.about-text h2{
+		font-size: 0.9rem;
+		font-weight: 500;
+	}
+	.information .info-box span{
+		font-size: 1rem;
+	}
+	.portfoliio-content {
+		grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	}
+
+	.contact-form form {
+		width: 300px;
+	}
+	.contact-button{
+		margin-left: 25%;
+	}
 }
