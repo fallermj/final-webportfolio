@@ -398,4 +398,16 @@ form textarea{
 	display: initial;
 	color: var(--color);
 	}
+	header .navbar{
+		position: absolute;
+		top: -500px;
+		left: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		background: var(--bg-color);
+		box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+		transition: 0.2s ease;
+		text-align: center;
+	}
 }
