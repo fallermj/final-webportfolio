@@ -381,14 +381,14 @@ form textarea{
 }
 @media (max-wdith: 768px) {
 	:root{
-		-big-font: 2.4rem;
-		-medium-font: 1.2rem;
+		--big-font: 2.4rem;
+		--medium-font: 1.2rem;
 	}
 }
 @media (max-wdith: 768px) {
 	:root{
-		-big-font: 2.4rem;
-		-medium-font: 1.2rem;
+		--big-font: 2.4rem;
+		--medium-font: 1.2rem;
 	}
 	header{
 		padding: 11px 4%
@@ -397,5 +397,5 @@ form textarea{
 	#menu-icon{
 	display: initial;
 	color: var(--color);
-}
+	}
 }
