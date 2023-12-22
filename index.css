@@ -293,7 +293,7 @@ header {
 }
 
 /* image hover */
-.porfolio-img img:hover{
+.portfolio-img img:hover{
 	transform: scale(1.1);
 	transition: 1s;
 }
