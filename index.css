@@ -413,4 +413,9 @@ form textarea{
 	.navbar.active{
 		top:100%;
 	}
+	.navbar a{
+		padding: 1.5rem;
+		display: block;
+		background: var(--bg-color);
+	}
 }
