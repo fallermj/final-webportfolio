@@ -418,7 +418,8 @@ form textarea{
 		display: block;
 		background: var(--bg-color);
 	}
-}#darkmode{
+	
+	#darkmode{
 		position: absolute;
 		top: 1.4rem;
 		right: 2rem;	
@@ -435,6 +436,10 @@ form textarea{
 	}
 
 	.about-container{
+		grid-template-columns: 1fr;
+	}
+
+	.about-image{
 		display: flex;
 		justify-content: center;
 	}
@@ -448,7 +453,7 @@ form textarea{
 	}
 }
 
-@media (max-width:340px){
+@media (max-width: 340px){
 	:root{
 		--big-font: 1.7rem;
 		--medium-font: 1.1rem;
@@ -464,7 +469,7 @@ form textarea{
 	.information .info-box span{
 		font-size: 1rem;
 	}
-	.portfoliio-content {
+	.portfolio-content {
 		grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 	}
 
