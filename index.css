@@ -27,9 +27,16 @@ body {
 	color: var(--color);
 }
 
+/* for darkmode*/
+body.active{
+	--color: #fff;
+	--bg-color:#0f0c27;
+} 
+
 section {
-	padding: 50px 10%;
+	padding: 35px 10%;
 }
+
 
 *::selection{
 	color: var(--bg-color);
@@ -92,7 +99,7 @@ header {
 	display: grid;
 	grid-template-columns: 0.2fr 1fr 1fr;
 	align-items: center;
-	grid-gap: 2.5rem;	 
+	grid-gap: 1.5rem;	 
 }
 
 .about-img{
@@ -100,7 +107,7 @@ header {
 }
 
 .about-img img{
-	width: 100%;
+	width: 90%;
 }
 
 .about-text span {
@@ -169,6 +176,9 @@ header {
 	font-size: var(--p-font);
 	color: rgb(2, 166, 70);
 }
+.about {
+	display: inline-block;
+}
 
 .about-container{
 	display: grid;
@@ -177,8 +187,8 @@ header {
 }
 
 .about-image img{
-	width: 80%;
-	height: 60%;
+	width:90%;
+	height: 400px;
 	object-fit: cover;
 	border-radius: 0.5rem;
 }
@@ -370,6 +380,7 @@ form textarea{
 .copyright a {
 	color: #22cf91;
 }
+
 /*Make it responsive*/
 @media (max-width: 991px) {
 	header{
